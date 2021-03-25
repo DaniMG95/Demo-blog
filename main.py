@@ -83,7 +83,7 @@ class Comment(db.Model):
 
 
 
-#db.create_all()
+db.create_all()
 
 @app.route('/')
 def get_all_posts():
